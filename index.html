@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dog API Viewer 🐶</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🐶 Dog Browser</h1>
+    <p>Explore random dog breeds using the Dog CEO API</p>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <input type="text" id="breedInput" placeholder="🔍 Search breed..." />
+      <button onclick="loadImages()">⟳ Refresh</button>
+    </div>
+
+    <div id="dogContainer" class="dog-grid">
+      <!-- Images will appear here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with 🐾 using the <a href="https://dog.ceo/dog-api/" target="_blank">Dog CEO API</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
